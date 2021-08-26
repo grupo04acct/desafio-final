@@ -1,0 +1,55 @@
+{
+  "store.home": {
+    "blocks": ["slider-layout#home", "rich-text#1", "rich-text#2"]
+  },
+  "slider-layout#home": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1", "image#2", "image#3"]
+  },
+  "image#1": {
+    "props": {
+      "src": "assets/slide1.png",
+      "blockClass": "carouselImage"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/slide2.png",
+      "blockClass": "carouselImage"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "assets/slide3.png",
+      "blockClass": "carouselImage"
+    }
+  },
+  "rich-text#1": {
+    "props": {
+      "text": "Buscamos constantemente a **liderança global**\n quando se trata de **soluções para comércio digital**.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "home1"
+    }
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "blockClass": "home2"
+    }
+  }
+}

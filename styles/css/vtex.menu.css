@@ -1,0 +1,13 @@
+.menuItem {
+  padding: 36px 0;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.styledLinkContent {
+  color: #000;
+}
+
+.styledLinkContent:hover {
+  color: #fcc200;
+}

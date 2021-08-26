@@ -1,0 +1,47 @@
+.strong--home1 {
+  color: #fcc200;
+}
+
+.paragraph {
+  color: #040404;
+}
+
+.paragraph--home1 {
+  font-size: 1.5rem;
+  padding-top: 60px;
+}
+
+.paragraph--home2 {
+  font-size: 1rem;
+  padding: 0 100px;
+}
+
+.container--home1 {
+  background-color: #fff;
+}
+
+.wrapper--home2 {
+  background-color: #fff;
+}
+
+.paragraph--footerBrasil {
+  font-size: 0.875rem;
+}
+
+.paragraph--footerEspanha {
+  font-size: 0.875rem;
+}
+
+.paragraph--footerEua {
+  font-size: 0.875rem;
+}
+
+.link--footerEmail {
+  font-size: 0.875rem;
+  color: #5974c7;
+  text-decoration: none;
+}
+
+.wrapper--footerEmail {
+  padding-top: 20px;
+}

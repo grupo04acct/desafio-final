@@ -1,0 +1,91 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "flex-layout.row#footer": {
+    "children": [
+      "image#selo",
+      "flex-layout.col#footer",
+      "rich-text#brasil",
+      "rich-text#espanha",
+      "rich-text#eua"
+    ]
+  },
+  "image#selo": {
+    "props": {
+      "width": 122,
+      "src": "assets/selo.svg"
+    }
+  },
+  "flex-layout.col#footer": {
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center"
+    },
+    "children": ["image#logo", "social-networks", "rich-text#email"]
+  },
+  "image#logo": {
+    "props": {
+      "width": 140,
+      "src": "assets/logo.svg"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.linkedin.com/company/acctglobal/",
+          "name": "LinkedIn"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA",
+          "name": "Youtube"
+        },
+        {
+          "url": "https://www.instagram.com/acct.global",
+          "name": "Instagram"
+        }
+      ]
+    }
+  },
+  "rich-text#email": {
+    "props": {
+      "text": "contato@acct.global",
+      "font": "t-heading-6",
+      "blockClass": "footerEmail"
+    }
+  },
+  "rich-text#brasil": {
+    "props": {
+      "text": "**BRASIL**\n\nAl. Prof. Lucas Nogueira Garcez,\n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "footerBrasil"
+    }
+  },
+  "rich-text#espanha": {
+    "props": {
+      "text": "**ESPANHA**\n\nCarrer Provença, 339\n08037 - Barcelona",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "footerEspanha"
+    }
+  },
+  "rich-text#eua": {
+    "props": {
+      "text": "**ESTADOS UNIDOS**\n\n12 East 49th Street NY\n10017 - New York",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-6",
+      "blockClass": "footerEua"
+    }
+  }
+}
