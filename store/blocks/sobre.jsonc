@@ -1,0 +1,192 @@
+{
+  "store.custom#sobre": {
+    "blocks": [
+      "image#coverSobre",
+      "rich-text#coverSobre",
+      "rich-text#sobreTitle",
+      "flex-layout.row#missao",
+      "rich-text#virtudesTitle",
+      "flex-layout.row#virtudes"
+    ]
+  },
+  "image#coverSobre": {
+    "props": {
+      "src": "assets/cover-sobre.jpg",
+      "blockClass": "imageCoverSobre"
+    }
+  },
+  "rich-text#coverSobre": {
+    "props": {
+      "text": "SOBRE NÓS**_**",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "textCoverSobre"
+    }
+  },
+  "rich-text#sobreTitle": {
+    "props": {
+      "text": "Projetando o **futuro do comércio digital**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "sobreTitle"
+    }
+  },
+  "flex-layout.row#missao": {
+    "children": ["flex-layout.col#missaoText", "flex-layout.col#missaoImg"]
+  },
+  "flex-layout.col#missaoText": {
+    "children": ["rich-text#missao"],
+    "props": {
+      "blockClass": "missaoText"
+    }
+  },
+  "flex-layout.col#missaoImg": {
+    "children": ["image#missao"],
+    "props": {
+      "blockClass": "missaoImg"
+    }
+  },
+  "rich-text#missao": {
+    "props": {
+      "text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia.\n\nA **ACCT** passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes.\n\nNós também temos o orgulho de dizer que a **ACCT** esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo.\n\nClientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "missaoText"
+    }
+  },
+  "image#missao": {
+    "props": {
+      "src": "assets/sobre.jpg",
+      "blockClass": "imageMissao"
+    }
+  },
+  "rich-text#virtudesTitle": {
+    "props": {
+      "text": "Por que a ACCT?**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudesTitle"
+    }
+  },
+  "flex-layout.row#virtudes": {
+    "children": [
+      "flex-layout.col#virtudes1",
+      "flex-layout.col#virtudes2",
+      "flex-layout.col#virtudes3",
+      "flex-layout.col#virtudes4",
+      "flex-layout.col#virtudes5"
+    ],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "flex-layout.col#virtudes1": {
+    "children": ["image#virtudes1", "rich-text#virtudes1"],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "flex-layout.col#virtudes2": {
+    "children": ["image#virtudes2", "rich-text#virtudes2"],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "flex-layout.col#virtudes3": {
+    "children": ["image#virtudes3", "rich-text#virtudes3"],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "flex-layout.col#virtudes4": {
+    "children": ["image#virtudes4", "rich-text#virtudes4"],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "flex-layout.col#virtudes5": {
+    "children": ["image#virtudes5", "rich-text#virtudes5"],
+    "props": {
+      "blockClass": "virtudes"
+    }
+  },
+  "image#virtudes1": {
+    "props": {
+      "src": "assets/virtudes1.svg",
+      "blockClass": "virtudes"
+    }
+  },
+  "rich-text#virtudes1": {
+    "props": {
+      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudes"
+    }
+  },
+  "image#virtudes2": {
+    "props": {
+      "src": "assets/virtudes2.svg",
+      "blockClass": "virtudes"
+    }
+  },
+  "rich-text#virtudes2": {
+    "props": {
+      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudes"
+    }
+  },
+  "image#virtudes3": {
+    "props": {
+      "src": "assets/virtudes3.svg",
+      "blockClass": "virtudes"
+    }
+  },
+  "rich-text#virtudes3": {
+    "props": {
+      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudes"
+    }
+  },
+  "image#virtudes4": {
+    "props": {
+      "src": "assets/virtudes4.svg",
+      "blockClass": "virtudes"
+    }
+  },
+  "rich-text#virtudes4": {
+    "props": {
+      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudes"
+    }
+  },
+  "image#virtudes5": {
+    "props": {
+      "src": "assets/virtudes5.svg",
+      "blockClass": "virtudes"
+    }
+  },
+  "rich-text#virtudes5": {
+    "props": {
+      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "virtudes"
+    }
+  }
+}

@@ -1,12 +1,21 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"],
+    "props": {
+      "blockClass": "footer"
+    }
   },
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#footer"]
+    "children": ["flex-layout.row#footerBorderTop", "flex-layout.row#footer"]
   },
   "footer-layout.mobile": {
-    "children": ["flex-layout.row#footer"]
+    "children": ["flex-layout.row#footerBorderTop", "flex-layout.row#footer"]
+  },
+  "flex-layout.row#footerBorderTop": {
+    "children": [],
+    "props": {
+      "blockClass": "footerBorderTop"
+    }
   },
   "flex-layout.row#footer": {
     "children": [
@@ -15,25 +24,31 @@
       "rich-text#brasil",
       "rich-text#espanha",
       "rich-text#eua"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer"
+    }
   },
   "image#selo": {
     "props": {
       "width": 122,
-      "src": "assets/selo.svg"
+      "src": "assets/selo.svg",
+      "blockClass": "footer"
     }
   },
   "flex-layout.col#footer": {
     "props": {
       "verticalAlign": "middle",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "footer"
     },
     "children": ["image#logo", "social-networks", "rich-text#email"]
   },
   "image#logo": {
     "props": {
       "width": 140,
-      "src": "assets/logo.svg"
+      "src": "assets/logo.svg",
+      "blockClass": "footer"
     }
   },
   "social-networks": {

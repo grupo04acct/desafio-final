@@ -45,3 +45,55 @@
 .wrapper--footerEmail {
   padding-top: 20px;
 }
+
+.container--textCoverSobre {
+  margin-top: -155px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper--textCoverSobre {
+  padding-left: 100px;
+}
+
+.paragraph--textCoverSobre {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.strong--textCoverSobre {
+  color: #fcc200;
+}
+
+.container--sobreTitle {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.strong--sobreTitle {
+  color: #fcc200;
+}
+
+.wrapper--missaoText {
+  background-color: #fff;
+  padding: 80px 32px 32px 100px;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.paragraph--missaoText {
+  color: #1d1d1d;
+}
+
+.paragraph--virtudesTitle {
+  color: #040404;
+  font-size: 1.5rem;
+}
+
+.strong--virtudesTitle {
+  color: #fcc200;
+}
+
+.paragraph--virtudes {
+  color: #717786;
+  font-size: 0.875rem;
+}

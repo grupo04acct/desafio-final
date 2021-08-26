@@ -1,8 +1,30 @@
-.flexRowContent {
+.flexRowContent--footer {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.flexRowContent--header {
   background-color: #fff;
 }
 
-.stretchChildrenWidth {
-  background-color: #f8f8f8;
-  padding: 60px 0;
+.flexRowContent--footerBorderTop {
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 1px;
+}
+
+.flexColChild--missaoImg {
+  background-color: #fff;
+  padding: 70px 100px 32px 32px;
+}
+
+.flexColChild--missaoText {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.flexColChild--virtudes {
+  text-align: center;
+  background-color: #fff;
 }
