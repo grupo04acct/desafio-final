@@ -1,5 +1,11 @@
 {
   "store.custom#sobre": {
     "path": "/sobre"
+  },
+  "store.custom#produtos": {
+    "path": "/produtos"
+  },
+  "store.custom#clientes": {
+    "path": "/clientes"
   }
 }

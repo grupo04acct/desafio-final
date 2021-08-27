@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#home", "rich-text#1", "rich-text#2"]
+    "blocks": ["slider-layout#home", "__fold__", "rich-text#1", "rich-text#2"]
   },
   "slider-layout#home": {
     "props": {
@@ -14,24 +14,34 @@
       "showPaginationDots": "never",
       "blockClass": "carousel"
     },
-    "children": ["image#1", "image#2", "image#3"]
+    "children": ["rich-text#slider1", "rich-text#slider2", "rich-text#slider3"]
   },
-  "image#1": {
+
+  "rich-text#slider1": {
     "props": {
-      "src": "assets/slide1.png",
-      "blockClass": "carouselImage"
+      "text": "**Tecnologia_**\n\nSomos uma empresa de arquitetura e engenharia de software focada na solução de problemas de negócios altamente complexos.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "slider1"
     }
   },
-  "image#2": {
+  "rich-text#slider2": {
     "props": {
-      "src": "assets/slide2.png",
-      "blockClass": "carouselImage"
+      "text": "**Desenvolvimento de E-commerce_**\n\nEquipes de alto desempenho entregando algumas das soluções de e-commerce mais complexas do mundo.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "slider2"
     }
   },
-  "image#3": {
+  "rich-text#slider3": {
     "props": {
-      "src": "assets/slide3.png",
-      "blockClass": "carouselImage"
+      "text": "**Desenvolvimento de Produto_**\n\nSomos especialistas em projetar e desenvolver produtos digitais de alto desempenho.",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "slider3"
     }
   },
   "rich-text#1": {
@@ -39,15 +49,15 @@
       "text": "Buscamos constantemente a **liderança global**\n quando se trata de **soluções para comércio digital**.",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-2",
+      "font": "t-heading-3",
       "blockClass": "home1"
     }
   },
   "rich-text#2": {
     "props": {
       "text": "Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "font": "t-heading-3",
       "blockClass": "home2"
     }

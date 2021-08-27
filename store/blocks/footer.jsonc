@@ -81,7 +81,7 @@
       "text": "**BRASIL**\n\nAl. Prof. Lucas Nogueira Garcez,\n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "font": "t-heading-6",
+      "font": "t-heading-2",
       "blockClass": "footerBrasil"
     }
   },
@@ -90,7 +90,7 @@
       "text": "**ESPANHA**\n\nCarrer Provença, 339\n08037 - Barcelona",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "font": "t-heading-6",
+      "font": "t-heading-2",
       "blockClass": "footerEspanha"
     }
   },
@@ -99,7 +99,7 @@
       "text": "**ESTADOS UNIDOS**\n\n12 East 49th Street NY\n10017 - New York",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "font": "t-heading-6",
+      "font": "t-heading-2",
       "blockClass": "footerEua"
     }
   }

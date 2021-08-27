@@ -28,7 +28,7 @@
       "flex-layout.col#spacer",
       "menu-item#sobre",
       "menu-item#produtos",
-      "menu-item#leads",
+      "menu-item#clientes",
       "flex-layout.col#spacer",
       "locale-switcher"
     ]
@@ -54,24 +54,24 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/produtos",
         "noFollow": false,
         "tagTitle": "Produtos",
         "text": "Produtos"
       }
     }
   },
-  "menu-item#leads": {
+  "menu-item#clientes": {
     "props": {
-      "id": "menu-item-leads",
+      "id": "menu-item-clientes",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/clientes",
         "noFollow": false,
-        "tagTitle": "Leads",
-        "text": "Leads"
+        "tagTitle": "Clientes",
+        "text": "Clientes"
       }
     }
   },
@@ -110,6 +110,17 @@
     }
   },
   "drawer": {
-    "children": []
+    "children": ["flex-layout.col#drawer"],
+    "props": {
+      "isFullWidth": "true"
+    }
+  },
+  "flex-layout.col#drawer": {
+    "children": [
+      "menu-item#sobre",
+      "menu-item#produtos",
+      "menu-item#clientes",
+      "locale-switcher"
+    ]
   }
 }

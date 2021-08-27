@@ -1,24 +1,18 @@
 {
   "store.custom#sobre": {
     "blocks": [
-      "image#coverSobre",
       "rich-text#coverSobre",
       "rich-text#sobreTitle",
+      "__fold__",
       "flex-layout.row#missao",
       "rich-text#virtudesTitle",
       "flex-layout.row#virtudes"
     ]
   },
-  "image#coverSobre": {
-    "props": {
-      "src": "assets/cover-sobre.jpg",
-      "blockClass": "imageCoverSobre"
-    }
-  },
   "rich-text#coverSobre": {
     "props": {
       "text": "SOBRE NÓS**_**",
-      "textAlignment": "LEFT",
+      "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "font": "t-heading-1",
       "blockClass": "textCoverSobre"
@@ -122,7 +116,7 @@
   },
   "rich-text#virtudes1": {
     "props": {
-      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "text": "Engenharia de Dados de Alta Complexidade",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
@@ -137,7 +131,7 @@
   },
   "rich-text#virtudes2": {
     "props": {
-      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "text": "Habilidades Técnicas",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
@@ -152,7 +146,7 @@
   },
   "rich-text#virtudes3": {
     "props": {
-      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "text": "Líder de Mercado em Implementações VTEX IO",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
@@ -167,7 +161,7 @@
   },
   "rich-text#virtudes4": {
     "props": {
-      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "text": "Excelente Suporte ao Cliente",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",
@@ -182,7 +176,7 @@
   },
   "rich-text#virtudes5": {
     "props": {
-      "text": "Engenharia de Dados de Alta\n Complexidade",
+      "text": "Segurança e Confiabilidade",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-2",

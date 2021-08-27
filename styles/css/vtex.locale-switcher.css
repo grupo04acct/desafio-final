@@ -1,0 +1,15 @@
+.button {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1025px) {
+  .button {
+    padding: 20px 0;
+  }
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
