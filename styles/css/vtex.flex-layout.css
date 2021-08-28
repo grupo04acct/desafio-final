@@ -4,14 +4,52 @@
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
 }
 
+.flexRow--main-header-mobile {
+  padding: 0 9px;
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
+}
+
 .flexRow--footer {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   background-color: #f8f8f8;
   margin-top: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .flexRowContent--footer {
+  background-color: #f8f8f8;
   padding: 60px 0;
+}
+
+@media screen and (min-width: 640px) {
+  /* alinha itens ao topo apenas em telas mais largas que 640px */
+  .flexRowContent--footer {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.flexCol--footerCol1,
+.flexCol--footerCol2,
+.flexCol--footerCol3,
+.flexCol--footerCol4,
+.flexCol--footerCol5 {
+  padding: 32px;
+}
+
+.flexCol--footerCol1,
+.flexCol--footerCol2 {
+  margin-top: 16px;
+}
+.flexCol--footerCol1 {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--missao {
+  display: flex;
+  justify-content: center;
 }
 
 .flexColChild--missaoImg {
@@ -45,6 +83,10 @@
 }
 
 @media screen and (max-width: 639px) {
+  .flexColChild--missaoImg {
+    padding: 15px;
+  }
+
   .flexRow--virtudes {
     max-width: 375px;
   }
