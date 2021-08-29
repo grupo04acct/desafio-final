@@ -208,6 +208,64 @@
   font-weight: 400;
 }
 
+.strong--depoimento-titulo {
+  color: #fcc200;
+}
+
+.paragraph--depoimento-titulo {
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  padding: 80px 104px 0;
+  /*padding: 6em 104px 0;*/
+  /*padding: 60px 15px 0;*/
+}
+
+.strong--depoimento {
+  color: #ccc;
+  font-size: 32px;
+  margin-bottom: 35px;
+  font-family: 'lsow-icomoon' !important;
+  font-variant: normal;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.paragraph--depoimento {
+  font-weight: 400;
+  text-align: justify !important;
+  font-style: normal !important;
+  line-height: 24px !important;
+  color: #666;
+  max-width: 750px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+  font-family: 'Open Sans';
+}
+
+.paragraph--depoimento-nome {
+  color: #333;
+  font-family: 'Open Sans Condensed';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.paragraph--depoimento-funcao {
+  color: #888;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
 .container--home1 {
   background-color: #fff;
 }

@@ -71,6 +71,12 @@
   align-items: center;
 }
 
+.imageElement--depoimento {
+  border-radius: 50%;
+  margin-right: 15px;
+  max-width: 64px;
+}
+
 @media screen and (max-width: 1025px) {
   .logoImage {
     padding: 25px 0;
