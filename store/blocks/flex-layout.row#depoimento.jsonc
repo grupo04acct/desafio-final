@@ -1,0 +1,251 @@
+{
+  "flex-layout.row#depoimento": {
+    "children": [
+      "flex-layout.col#depoimento"
+    ],
+    "props": {
+      "blockClass": "depoimento"
+    }
+  },
+  "flex-layout.col#depoimento": {
+    "children": [
+      "rich-text#dep-titulo",
+      "rich-text#dep-subtitulo",
+      "slider-layout#depoimento"
+    ],
+    "props": {
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "marginLeft": 8,
+      "marginRight": 8
+    }
+  },
+  "rich-text#dep-titulo": {
+    "props": {
+      "text": "Depoimentos**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-titulo"
+    }
+  },
+  "rich-text#dep-subtitulo": {
+    "props": {
+      "text": "**\"**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "depoimento"
+    }
+  },
+  "slider-layout#depoimento": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "depoimento"
+    },
+    "children": [
+      "flex-layout.col#slider-dep1",
+      "flex-layout.col#slider-dep2",
+      "flex-layout.col#slider-dep3"
+    ]
+  },
+  "flex-layout.col#slider-dep1": {
+    "children": [
+      "flex-layout.row#slider-dep1-texto",
+      "flex-layout.row#slider-dep1-pessoa"
+    ]    
+  },
+  "flex-layout.row#slider-dep1-texto": {
+    "children": [
+      "rich-text#slider-dep1-texto"
+    ]
+  },
+  "flex-layout.row#slider-dep1-pessoa": {
+    "children": [
+      "flex-layout.col#slider-dep1-foto",
+      "flex-layout.col#slider-dep1-nome"
+    ]
+  },
+  "flex-layout.col#slider-dep1-foto": {
+    "children": [
+      "image#slider-dep1-pessoa"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#slider-dep1-nome": {
+    "children": [
+      "rich-text#slider-dep1-nome",
+      "rich-text#slider-dep1-funcao"
+    ]
+  },
+  "rich-text#slider-dep1-texto": {
+    "props": {
+      "text": "Foi gratificante ter um parceiro que concordou com esse projeto, pois sabíamos que as regras do negócio poderiam gerar várias mudanças ao longo do caminho. A equipe da ACCT foi flexível o suficiente para lidar com as mudanças no planejamento e se adaptou ao processo.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "depoimento"
+    }
+  },
+  "image#slider-dep1-pessoa": {
+    "props": {
+      "src": "assets/depoimento/gustavo-rios.jpg",
+      "blockClass": "depoimento"
+    }
+  },
+  "rich-text#slider-dep1-nome": {
+    "props": {
+      "text": "GUSTAVO RIOS",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-nome"
+    }
+  },
+  "rich-text#slider-dep1-funcao": {
+    "props": {
+      "text": "Diretor de Clientes - VTEX",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-funcao"
+    }
+  },
+  "flex-layout.col#slider-dep2": {
+    "children": [
+      "flex-layout.row#slider-dep2-texto",
+      "flex-layout.row#slider-dep2-pessoa"
+    ]    
+  },
+  "flex-layout.row#slider-dep2-texto": {
+    "children": [
+      "rich-text#slider-dep2-texto"
+    ]
+  },
+  "flex-layout.row#slider-dep2-pessoa": {
+    "children": [
+      "flex-layout.col#slider-dep2-foto",
+      "flex-layout.col#slider-dep2-nome"
+    ]
+  },
+  "flex-layout.col#slider-dep2-foto": {
+    "children": [
+      "image#slider-dep2-pessoa"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#slider-dep2-nome": {
+    "children": [
+      "rich-text#slider-dep2-nome",
+      "rich-text#slider-dep2-funcao"
+    ]
+  },
+  "rich-text#slider-dep2-texto": {
+    "props": {
+      "text": "A Tok & Stok precisava evoluir sua experiência de compra online. Nossas lojas já estão bastante consolidadas e somos referência em experiência em móveis e decoração. Nosso desafio era fazer exatamente esse mesmo movimento no digital, de forma bastante acelerada.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "depoimento"
+    }
+  },
+  "image#slider-dep2-pessoa": {
+    "props": {
+      "src": "assets/depoimento/adriano-tavollassi.jpg",
+      "blockClass": "depoimento"
+    }
+  },
+  "rich-text#slider-dep2-nome": {
+    "props": {
+      "text": "ADRIANO DI BELLA TAVOLLASSI",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-nome"
+    }
+  },
+  "rich-text#slider-dep2-funcao": {
+    "props": {
+      "text": "Ex-Diretor de E-commerce e Digital - Tok & Stok",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-funcao"
+    }
+  },
+  "flex-layout.col#slider-dep3": {
+    "children": [
+      "flex-layout.row#slider-dep3-texto",
+      "flex-layout.row#slider-dep3-pessoa"
+    ]    
+  },
+  "flex-layout.row#slider-dep3-texto": {
+    "children": [
+      "rich-text#slider-dep3-texto"
+    ]
+  },
+  "flex-layout.row#slider-dep3-pessoa": {
+    "children": [
+      "flex-layout.col#slider-dep3-foto",
+      "flex-layout.col#slider-dep3-nome"
+    ]
+  },
+  "flex-layout.col#slider-dep3-foto": {
+    "children": [
+      "image#slider-dep3-pessoa"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#slider-dep3-nome": {
+    "children": [
+      "rich-text#slider-dep3-nome",
+      "rich-text#slider-dep3-funcao"
+    ]
+  },
+  "rich-text#slider-dep3-texto": {
+    "props": {
+      "text": "A ACCT e Empório da Cerveja trabalharam em conjunto com nossa equipe interna para que eles pudessem ser treinados para liderar as operações posteriormente. Na minha opinião, tivemos uma parceria muito rica, feita em equipe, que incluiu troca de conhecimento e comunicação transparente.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "depoimento"
+    }
+  },
+  "image#slider-dep3-pessoa": {
+    "props": {
+      "src": "assets/depoimento/nelson-moura.jpg",
+      "blockClass": "depoimento"
+    }
+  },
+  "rich-text#slider-dep3-nome": {
+    "props": {
+      "text": "NELSON DE MOURA",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-nome"
+    }
+  },
+  "rich-text#slider-dep3-funcao": {
+    "props": {
+      "text": "Ex-gerente de Produto - Empório da Cerveja",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "font": "t-heading-2",
+      "blockClass": "depoimento-funcao"
+    }
+  }
+}

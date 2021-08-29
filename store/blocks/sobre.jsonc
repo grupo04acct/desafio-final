@@ -6,7 +6,10 @@
       "__fold__",
       "flex-layout.row#missao",
       "rich-text#virtudesTitle",
-      "flex-layout.row#virtudes"
+      "flex-layout.row#virtudes",
+      "flex-layout.row#virtudes-text",
+      "flex-layout.row#trusted-by",
+      "flex-layout.row#time"
     ]
   },
   "rich-text#coverSobre": {
@@ -68,42 +71,24 @@
   },
   "flex-layout.row#virtudes": {
     "children": [
-      "flex-layout.col#virtudes1",
-      "flex-layout.col#virtudes2",
-      "flex-layout.col#virtudes3",
-      "flex-layout.col#virtudes4",
-      "flex-layout.col#virtudes5"
+      "image#virtudes1",
+      "image#virtudes2",
+      "image#virtudes3",
+      "image#virtudes4",
+      "image#virtudes5"
     ],
     "props": {
       "blockClass": "virtudes"
     }
   },
-  "flex-layout.col#virtudes1": {
-    "children": ["image#virtudes1", "rich-text#virtudes1"],
-    "props": {
-      "blockClass": "virtudes"
-    }
-  },
-  "flex-layout.col#virtudes2": {
-    "children": ["image#virtudes2", "rich-text#virtudes2"],
-    "props": {
-      "blockClass": "virtudes"
-    }
-  },
-  "flex-layout.col#virtudes3": {
-    "children": ["image#virtudes3", "rich-text#virtudes3"],
-    "props": {
-      "blockClass": "virtudes"
-    }
-  },
-  "flex-layout.col#virtudes4": {
-    "children": ["image#virtudes4", "rich-text#virtudes4"],
-    "props": {
-      "blockClass": "virtudes"
-    }
-  },
-  "flex-layout.col#virtudes5": {
-    "children": ["image#virtudes5", "rich-text#virtudes5"],
+  "flex-layout.row#virtudes-text": {
+    "children": [
+      "rich-text#virtudes1",
+      "rich-text#virtudes2",
+      "rich-text#virtudes3",
+      "rich-text#virtudes4",
+      "rich-text#virtudes5"
+    ],
     "props": {
       "blockClass": "virtudes"
     }

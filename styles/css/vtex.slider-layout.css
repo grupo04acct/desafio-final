@@ -1,3 +1,9 @@
 .caretIcon {
   color: #fff;
 }
+.caretIcon--time {
+  color: #afafaf;
+}
+.caretIcon--depoimento {
+  color: #aaa;
+}

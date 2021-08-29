@@ -1,0 +1,716 @@
+{
+  "flex-layout.row#time": {
+    "children": [
+      "flex-layout.col#time"
+    ]
+  },
+  "flex-layout.col#time": {
+    "children": [
+      "rich-text#time-titulo",
+      "rich-text#time-subtitulo",
+      "slider-layout#time"
+    ],
+    "props": {
+      "paddingLeft": 9,
+      "paddingRight": 9
+    }
+  },
+  "rich-text#time-titulo": {
+    "props": {
+      "text": "Time**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "home1"
+    }
+  },
+  "rich-text#time-subtitulo": {
+    "props": {
+      "text": "**A ACCT tem uma equipe interna de alto desempenho** com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time"
+    }
+  },
+  "slider-layout#time": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 2,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "blockClass": "time"
+    },
+    "children": [
+      "flex-layout.col#slider-time1",
+      "flex-layout.col#slider-time2",
+      "flex-layout.col#slider-time3",
+      "flex-layout.col#slider-time4",
+      "flex-layout.col#slider-time5",
+      "flex-layout.col#slider-time6",
+      "flex-layout.col#slider-time7",
+      "flex-layout.col#slider-time8",
+      "flex-layout.col#slider-time9",
+      "flex-layout.col#slider-time10",
+      "flex-layout.col#slider-time11",
+      "flex-layout.col#slider-time12",
+      "flex-layout.col#slider-time13",
+      "flex-layout.col#slider-time14",
+      "flex-layout.col#slider-time15",
+      "flex-layout.col#slider-time16",
+      "flex-layout.col#slider-time17",
+      "flex-layout.col#slider-time18",
+      "flex-layout.col#slider-time19"
+    ]
+  },
+  "flex-layout.col#slider-time1": {
+    "children": [
+      "image#slider-time1",
+      "rich-text#slider-time1-nome",
+      "rich-text#slider-time1-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time1": {
+    "props": {
+      "src": "assets/time/frederico-heitmann.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time1-nome": {
+    "props": {
+      "text": "Frederico Heitmann",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time1-funcao": {
+    "props": {
+      "text": "CEO & Partner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time2": {
+    "children": [
+      "image#slider-time2",
+      "rich-text#slider-time2-nome",
+      "rich-text#slider-time2-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time2": {
+    "props": {
+      "src": "assets/time/fabio-feichtinger.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time2-nome": {
+    "props": {
+      "text": "Fábio Feichtinger",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time2-funcao": {
+    "props": {
+      "text": "CEO & Partner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time3": {
+    "children": [
+      "image#slider-time3",
+      "rich-text#slider-time3-nome",
+      "rich-text#slider-time3-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time3": {
+    "props": {
+      "src": "assets/time/andre-dudek.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time3-nome": {
+    "props": {
+      "text": "André Dudek",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time3-funcao": {
+    "props": {
+      "text": "Director & Partner",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time4": {
+    "children": [
+      "image#slider-time4",
+      "rich-text#slider-time4-nome",
+      "rich-text#slider-time4-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time4": {
+    "props": {
+      "src": "assets/time/fatima-raizaro.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time4-nome": {
+    "props": {
+      "text": "Fátima Raizaro",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time4-funcao": {
+    "props": {
+      "text": "Head of RH",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time5": {
+    "children": [
+      "image#slider-time5",
+      "rich-text#slider-time5-nome",
+      "rich-text#slider-time5-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time5": {
+    "props": {
+      "src": "assets/time/juan-nader.jpg",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time5-nome": {
+    "props": {
+      "text": "Juan Nader",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time5-funcao": {
+    "props": {
+      "text": "Head of Marketing",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time6": {
+    "children": [
+      "image#slider-time6",
+      "rich-text#slider-time6-nome",
+      "rich-text#slider-time6-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time6": {
+    "props": {
+      "src": "assets/time/anna-chimenes.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time6-nome": {
+    "props": {
+      "text": "Anna Chimenes",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time6-funcao": {
+    "props": {
+      "text": "Head de Controladoria e Backoffice",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time7": {
+    "children": [
+      "image#slider-time7",
+      "rich-text#slider-time7-nome",
+      "rich-text#slider-time7-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time7": {
+    "props": {
+      "src": "assets/time/marcos-cipriani.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time7-nome": {
+    "props": {
+      "text": "Marcos Cipriani",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time7-funcao": {
+    "props": {
+      "text": "General Manager Europe",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time8": {
+    "children": [
+      "image#slider-time8",
+      "rich-text#slider-time8-nome",
+      "rich-text#slider-time8-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time8": {
+    "props": {
+      "src": "assets/time/rafael-esberard.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time8-nome": {
+    "props": {
+      "text": "Rafael Esberard",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time8-funcao": {
+    "props": {
+      "text": "SVP of Global Sales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time9": {
+    "children": [
+      "image#slider-time9",
+      "rich-text#slider-time9-nome",
+      "rich-text#slider-time9-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time9": {
+    "props": {
+      "src": "assets/time/carlos-oliveira.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time9-nome": {
+    "props": {
+      "text": "Carlos Oliveira",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time9-funcao": {
+    "props": {
+      "text": "Sales Manager Brazil",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time10": {
+    "children": [
+      "image#slider-time10",
+      "rich-text#slider-time10-nome",
+      "rich-text#slider-time10-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time10": {
+    "props": {
+      "src": "assets/time/cecilia-pereira.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time10-nome": {
+    "props": {
+      "text": "Cecília Pereira",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time10-funcao": {
+    "props": {
+      "text": "Head of Trainning and Development",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time11": {
+    "children": [
+      "image#slider-time11",
+      "rich-text#slider-time11-nome",
+      "rich-text#slider-time11-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time11": {
+    "props": {
+      "src": "assets/time/urania-reis.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time11-nome": {
+    "props": {
+      "text": "Urânia Reis",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time11-funcao": {
+    "props": {
+      "text": "Head of Quality Assurance",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time12": {
+    "children": [
+      "image#slider-time12",
+      "rich-text#slider-time12-nome",
+      "rich-text#slider-time12-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time12": {
+    "props": {
+      "src": "assets/time/guilherme-cardoso.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time12-nome": {
+    "props": {
+      "text": "Guilherme Cardoso",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time12-funcao": {
+    "props": {
+      "text": "Head of Engineering",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time13": {
+    "children": [
+      "image#slider-time13",
+      "rich-text#slider-time13-nome",
+      "rich-text#slider-time13-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time13": {
+    "props": {
+      "src": "assets/time/rodrigo-de-gouveia.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time13-nome": {
+    "props": {
+      "text": "Rodrigo de Gouveia",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time13-funcao": {
+    "props": {
+      "text": "Design Experience Director",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time14": {
+    "children": [
+      "image#slider-time14",
+      "rich-text#slider-time14-nome",
+      "rich-text#slider-time14-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time14": {
+    "props": {
+      "src": "assets/time/ammon-cunha.jpg",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time14-nome": {
+    "props": {
+      "text": "Ammon Cunha",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time14-funcao": {
+    "props": {
+      "text": "Head of Business Intelligence",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time15": {
+    "children": [
+      "image#slider-time15",
+      "rich-text#slider-time15-nome",
+      "rich-text#slider-time15-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time15": {
+    "props": {
+      "src": "assets/time/barbara-cruz.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time15-nome": {
+    "props": {
+      "text": "Bárbara Cruz",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time15-funcao": {
+    "props": {
+      "text": "Design Experience",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time16": {
+    "children": [
+      "image#slider-time16",
+      "rich-text#slider-time16-nome",
+      "rich-text#slider-time16-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time16": {
+    "props": {
+      "src": "assets/time/ana-lebre.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time16-nome": {
+    "props": {
+      "text": "Ana Lebre",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time16-funcao": {
+    "props": {
+      "text": "Sales Analyst",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time17": {
+    "children": [
+      "image#slider-time17",
+      "rich-text#slider-time17-nome",
+      "rich-text#slider-time17-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time17": {
+    "props": {
+      "src": "assets/time/victor-angelotti.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time17-nome": {
+    "props": {
+      "text": "Victor Angelotti",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time17-funcao": {
+    "props": {
+      "text": "Designer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time18": {
+    "children": [
+      "image#slider-time18",
+      "rich-text#slider-time18-nome",
+      "rich-text#slider-time18-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time18": {
+    "props": {
+      "src": "assets/time/camila-santos.png",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time18-nome": {
+    "props": {
+      "text": "Camila Santos",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time18-funcao": {
+    "props": {
+      "text": "Sales Analyst",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  },
+  "flex-layout.col#slider-time19": {
+    "children": [
+      "image#slider-time19",
+      "rich-text#slider-time19-nome",
+      "rich-text#slider-time19-funcao"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#slider-time19": {
+    "props": {
+      "src": "assets/time/rafael-rossini.jpg",
+      "blockClass": "time"
+    }
+  },
+  "rich-text#slider-time19-nome": {
+    "props": {
+      "text": "Rafael Rossini",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-nome"
+    }
+  },
+  "rich-text#slider-time19-funcao": {
+    "props": {
+      "text": "Developer",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "time-funcao"
+    }
+  }
+}

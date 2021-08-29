@@ -32,6 +32,24 @@
   width: 1140px;
 }
 
+.flexRowContent--depoimento {
+  background-color: #f1f1f1;
+  margin-top: 0;
+  padding-bottom: 96px;
+}
+
+.flexRowContent--hist-cli {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.flexCol--hist-cli {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: super;
+  margin: 0 2rem;
+}
+
 @media screen and (max-width: 1170px) {
   .flexRow--virtudes {
     width: 940px;

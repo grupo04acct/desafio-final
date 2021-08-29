@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#trusted-by": {
+    "children": [
+      "flex-layout.col#trusted-by"
+    ]
+  },
+  "flex-layout.col#trusted-by": {
+    "children": [
+      "flex-layout.row#trusted-txt",      
+      "flex-layout.row#trusted-img1",
+      "flex-layout.row#trusted-img2"
+    ],
+    "props": {
+      "paddingLeft": 9,
+      "paddingRight": 9
+    }
+  },
+  "flex-layout.row#trusted-txt": {
+    "children": [
+      "rich-text#trusted"
+    ]
+  },
+  "rich-text#trusted": {
+    "props": {
+      "text": "Trusted by**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "home1"
+    }
+  },
+  "flex-layout.row#trusted-img1": {
+    "children": [
+      "image#carrefour",
+      "image#samsung",
+      "image#abinbev",
+      "image#stanley-black-decker",
+      "image#motorola"
+    ],
+    "props": {
+      "blockClass": "trusted"
+    }
+  },
+  "flex-layout.row#trusted-img2": {
+    "children": [
+      "image#unilever",
+      "image#whirlpool",
+      "image#universal",
+      "image#decathlon",
+      "image#cea"
+    ],
+    "props": {
+      "blockClass": "trusted"
+    }
+  },
+  "image#carrefour": {
+    "props": {
+      "src": "assets/trusted/carrefour.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#samsung": {
+    "props": {
+      "src": "assets/trusted/samsung.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#abinbev": {
+    "props": {
+      "src": "assets/trusted/abinbev.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#stanley-black-decker": {
+    "props": {
+      "src": "assets/trusted/stanley-black-decker.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#motorola": {
+    "props": {
+      "src": "assets/trusted/motorola.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#unilever": {
+    "props": {
+      "src": "assets/trusted/unilever.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#whirlpool": {
+    "props": {
+      "src": "assets/trusted/whirlpool.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#universal": {
+    "props": {
+      "src": "assets/trusted/universal.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#decathlon": {
+    "props": {
+      "src": "assets/trusted/decathlon.svg",
+      "blockClass": "trustedImg"
+    }
+  },
+  "image#cea": {
+    "props": {
+      "src": "assets/trusted/cea.svg",
+      "blockClass": "trustedImg"
+    }
+  }
+}
