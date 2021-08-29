@@ -1,6 +1,14 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#home", "__fold__", "rich-text#1", "rich-text#2"]
+    "blocks": [
+      "slider-layout#home", 
+      "__fold__", 
+      "rich-text#1", 
+      "rich-text#2",
+      "info-card#sobre", 
+      "flex-layout.row#trusted-by",
+      "flex-layout.row#flip"
+    ]
   },
   "slider-layout#home": {
     "props": {
@@ -60,6 +68,17 @@
       "textPosition": "LEFT",
       "font": "t-heading-3",
       "blockClass": "home2"
+    }
+  },
+  "info-card#sobre": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba mais sobre nós",
+      "callToActionUrl": "/sobre",
+      "textAlignment": "center",
+      "font": "t-heading-6"
     }
   }
 }
