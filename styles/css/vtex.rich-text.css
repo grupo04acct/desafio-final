@@ -266,6 +266,38 @@
   margin: 0;
 }
 
+.strong--hist-cli-titulo {
+  color: #fcc200;
+}
+
+.paragraph--hist-cli-titulo {
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  padding: 80px 104px 0;
+}
+
+.paragraph--hist-cli-nome {
+  font-size: 19.2px;
+  text-align: center;
+  margin: 0.75rem 0 1.5rem 0;
+  font-family: 'Open Sans Condensed';
+  font-weight: bold;
+  color: #040404;
+  text-rendering: optimizeLegibility;
+  line-height: 1.4;
+}
+
+.paragraph--hist-cli-desc {
+  color: #292929;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  vertical-align: top;
+}
+
 .container--home1 {
   background-color: #fff;
 }

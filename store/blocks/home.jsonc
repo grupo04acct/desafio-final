@@ -8,7 +8,8 @@
       "info-card#sobre", 
       "flex-layout.row#trusted-by",
       "flex-layout.row#flip",
-      "flex-layout.row#depoimento"
+      "flex-layout.row#depoimento",
+      "flex-layout.row#historia-cliente"
     ]
   },
   "slider-layout#home": {

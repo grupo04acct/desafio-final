@@ -77,6 +77,13 @@
   max-width: 64px;
 }
 
+.imageElement--hist-cli {
+  border-radius: 100px;
+  margin-bottom: 20px;
+  max-width: 240px !important;
+  vertical-align: middle;
+}
+
 @media screen and (max-width: 1025px) {
   .logoImage {
     padding: 25px 0;
