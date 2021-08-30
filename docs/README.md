@@ -63,3 +63,15 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
 #### Contato - Mobile
 
 ![Contato - Mobile](demos/desafiofinal-m-contato.gif)
+
+## Membros do grupo
+- Denis Ricardo Littig
+- Heloisa Lorena Oliveira Lopes
+- Luiz Lombardi
+- Maria Luíza Santinho Lima Monteiro
+- Mariana de Araujo dos Santos
+- Mário Lúcio
+- Priscila Sabino
+- Rogério Luciano dos Santos
+- Tarcísio José de Amorim Carvalho
+- Tiago Lima
