@@ -101,9 +101,17 @@
   color: #040404;
 }
 
+.flexRowContent--product-main {
+  padding: 0 104px;
+}
+
 @media screen and (max-width: 1170px) {
   .flexRow--virtudes {
     width: 940px;
+  }
+
+  .flexRowContent--hist-cli {
+    padding: 0;
   }
 }
 
@@ -111,9 +119,28 @@
   .flexRow--virtudes {
     width: 738px;
   }
+  .flexRowContent--product-main {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .flexRowContent--hist-cli {
+    display: flex;
+    align-items: start;
+  }
 }
 
 @media screen and (max-width: 639px) {
+  .flexRowContent--depoimento {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexCol--depoimento {
+    padding: 0 32px;
+  }
+
   .flexColChild--missaoImg {
     padding: 15px;
   }

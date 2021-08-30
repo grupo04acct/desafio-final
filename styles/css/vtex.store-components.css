@@ -82,6 +82,56 @@
   vertical-align: middle;
 }
 
+.productBrand {
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  color: #040404;
+}
+
+.productDescriptionTitle {
+  visibility: hidden;
+}
+
+.content {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 0.875rem;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.sellingPrice {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+:global(.vtex-toast) {
+  background-color: #5974c7;
+  font-family: 'Open Sans';
+  text-transform: none;
+  color: #ffffff;
+}
+
+:global(.vtex-button) {
+  background-color: #ffffff;
+  border-color: #5974c7;
+  font-family: 'Open Sans';
+  text-transform: none;
+  color: #5974c7;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+  border: none;
+}
+
+:global(.vtex-button):hover {
+  background-color: #5974c7;
+  border-color: #5974c7;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 1025px) {
   .logoImage {
     padding: 25px 0;
