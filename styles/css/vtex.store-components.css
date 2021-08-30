@@ -136,6 +136,11 @@
   color: #ffffff;
 }
 
+.shareLabel {
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
 @media screen and (max-width: 1025px) {
   .logoImage {
     padding: 25px 0;
