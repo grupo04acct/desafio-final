@@ -1,14 +1,14 @@
 {
-  "store.custom#clientes": {
-    "blocks": ["rich-text#coverClientes", "flex-layout.row#form"]
+  "store.custom#contato": {
+    "blocks": ["rich-text#coverContato", "flex-layout.row#form"]
   },
-  "rich-text#coverClientes": {
+  "rich-text#coverContato": {
     "props": {
-      "text": "CLIENTES**_**",
+      "text": "CONTATO**_**",
       "textAlignment": "CENTER",
       "textPosition": "LEFT",
       "font": "t-heading-1",
-      "blockClass": "textCoverClientes"
+      "blockClass": "textCoverContato"
     }
   },
 
