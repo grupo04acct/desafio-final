@@ -76,3 +76,17 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
 - Rogério Luciano dos Santos
 - Tarcísio José de Amorim Carvalho
 - Tiago Lima
+
+## Github dos membros do grupo
+
+<table>
+  <tr>
+   <td align="center"><a href="https://github.com/denis-littig"><img src="https://avatars.githubusercontent.com/u/7265139?v=4" width="100px;" alt=""/><br /><sub><b>Denis Ricardo Littig</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=denis-littig" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hlorenalopes"><img src="https://avatars.githubusercontent.com/u/40503024?v=4" width="100px;" alt=""/><br /><sub><b>Heloisa Lorena Lopes</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=hlorenalopes" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/luiz-lombardi"><img src="https://avatars.githubusercontent.com/u/46449765?v=4" width="100px;" alt=""/><br /><sub><b>Luiz Lombardi</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=luiz-lombardi" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/marialuiza29/"><img src="https://avatars.githubusercontent.com/u/9123245?v=4" width="100px;" alt=""/><br /><sub><b>Maria Luíza Santinho</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=marialuiza29" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/PriscilaSabino"><img src="https://avatars.githubusercontent.com/u/69174073?v=4" width="100px;" alt=""/><br /><sub><b>Priscila Sabino</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=PriscilaSabino" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/TarcisioCarvalho"><img src="https://avatars.githubusercontent.com/u/24461526?v=4" width="100px;" alt=""/><br /><sub><b>Tarcísio  Carvalho</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=TarcisioCarvalho" title="Code">💻</a></td>
+   
+  </tr>
+</table>
