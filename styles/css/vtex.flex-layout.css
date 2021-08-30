@@ -76,6 +76,10 @@
   width: 1140px;
 }
 
+.flexCol--virtudes {
+  padding-bottom: 60px;
+}
+
 .flexRowContent--depoimento {
   background-color: #f1f1f1;
   margin-top: 0;
