@@ -6,27 +6,27 @@
     }
   },
   "footer-layout.desktop": {
-    "children": ["flex-layout.row#footerBorderTop", "flex-layout.row#footer"]
+    "children": ["flex-layout.row#footer"]
   },
   "footer-layout.mobile": {
-    "children": ["flex-layout.row#footerBorderTop", "flex-layout.row#footer"]
-  },
-  "flex-layout.row#footerBorderTop": {
-    "children": [],
-    "props": {
-      "blockClass": "footerBorderTop"
-    }
+    "children": ["flex-layout.row#footer"]
   },
   "flex-layout.row#footer": {
     "children": [
-      "image#selo",
-      "flex-layout.col#footer",
-      "rich-text#brasil",
-      "rich-text#espanha",
-      "rich-text#eua"
+      "flex-layout.col#footer1",
+      "flex-layout.col#footer2",
+      "flex-layout.col#footer3",
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5"
     ],
     "props": {
       "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#footer1": {
+    "children": ["image#selo"],
+    "props": {
+      "blockClass": "footerCol1"
     }
   },
   "image#selo": {
@@ -36,11 +36,11 @@
       "blockClass": "footer"
     }
   },
-  "flex-layout.col#footer": {
+  "flex-layout.col#footer2": {
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "blockClass": "footer"
+      "blockClass": "footerCol2"
     },
     "children": ["image#logo", "social-networks", "rich-text#email"]
   },
@@ -76,6 +76,12 @@
       "blockClass": "footerEmail"
     }
   },
+  "flex-layout.col#footer3": {
+    "children": ["rich-text#brasil"],
+    "props": {
+      "blockClass": "footerCol3"
+    }
+  },
   "rich-text#brasil": {
     "props": {
       "text": "**BRASIL**\n\nAl. Prof. Lucas Nogueira Garcez,\n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
@@ -85,6 +91,12 @@
       "blockClass": "footerBrasil"
     }
   },
+  "flex-layout.col#footer4": {
+    "children": ["rich-text#espanha"],
+    "props": {
+      "blockClass": "footerCol4"
+    }
+  },
   "rich-text#espanha": {
     "props": {
       "text": "**ESPANHA**\n\nCarrer Provença, 339\n08037 - Barcelona",
@@ -92,6 +104,12 @@
       "textPosition": "LEFT",
       "font": "t-heading-2",
       "blockClass": "footerEspanha"
+    }
+  },
+  "flex-layout.col#footer5": {
+    "children": ["rich-text#eua"],
+    "props": {
+      "blockClass": "footerCol5"
     }
   },
   "rich-text#eua": {

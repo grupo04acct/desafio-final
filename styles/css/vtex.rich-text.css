@@ -464,25 +464,16 @@
     text-align: center;
   }
 
-  .container--footerBrasil {
-    padding: 24px 15px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .container--footerEspanha {
-    padding: 24px 15px;
-    display: flex;
-    justify-content: center;
-  }
-
+  .container--footerBrasil,
+  .container--footerEspanha,
   .container--footerEua {
     padding: 24px 15px;
     display: flex;
     justify-content: center;
   }
 
-  .paragraph--missaoText {
-    text-align: center;
+  .wrapper--missaoText {
+    background-color: #fff;
+    padding: 15px;
   }
 }

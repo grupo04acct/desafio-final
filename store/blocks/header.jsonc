@@ -101,7 +101,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["drawer", "logo", "flex-layout.col#spacer"],
+    "children": ["logo", "flex-layout.col#spacer", "drawer"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
