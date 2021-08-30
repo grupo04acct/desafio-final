@@ -8,6 +8,20 @@ A página de produtos deveria a lista de produtos cadastrados. Nós optamos por 
 
 Também criamos uma página de contato para cadastrar os prospectos da empresa, com integração com a API Gateway da AWS e a API da VTEX IO para identificar os prospectos que se tornaram clientes através de uma compra e mostrá-los na lista de leads dentro da plataforma da VTEX.
 
+  * [Demos](#demos)
+    + [Home](#home)
+      - [Home - Desktop](#home---desktop)
+      - [Home - Mobile](#home---mobile)
+    + [Sobre](#sobre)
+      - [Sobre - Desktop](#sobre---desktop)
+      - [Sobre - Mobile](#sobre---mobile)
+    + [Produtos](#produtos)
+      - [Produtos - Desktop](#produtos---desktop)
+      - [Produtos - Mobile](#produtos---mobile)
+    + [Contato](#contato)
+      - [Contato - Desktop](#contato---desktop)
+      - [Contato - Mobile](#contato---mobile)
+
 ## Demos
 
 ### Home
