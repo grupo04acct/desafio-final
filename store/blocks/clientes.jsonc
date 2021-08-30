@@ -1,5 +1,15 @@
 {
   "store.custom#clientes": {
-    "blocks": []
+    "children": ["rich-text#coverClientes"]
+  },
+
+  "rich-text#coverClientes": {
+    "props": {
+      "text": "CLIENTES**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "textCoverClientes"
+    }
   }
 }

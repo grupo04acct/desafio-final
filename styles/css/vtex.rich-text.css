@@ -115,6 +115,19 @@
 
 .container--textCoverSobre {
   background-image: url('assets/cover-sobre.jpg');
+}
+
+.container--textCoverProdutos {
+  background-image: url('assets/cover-produtos.jpg');
+}
+
+.container--textCoverClientes {
+  background-image: url('assets/cover-clientes.jpg');
+}
+
+.container--textCoverSobre,
+.container--textCoverProdutos,
+.container--textCoverClientes {
   background-position: center center;
   background-size: cover;
   padding: 55.5px 0 55.5px 104px;
@@ -122,14 +135,18 @@
   align-items: center;
 }
 
-.paragraph--textCoverSobre {
+.paragraph--textCoverSobre,
+.paragraph--textCoverProdutos,
+.paragraph--textCoverClientes {
   color: #fff;
   font-family: 'Open Sans Condensed';
   font-weight: 700;
   font-size: 2.25rem;
 }
 
-.strong--textCoverSobre {
+.strong--textCoverSobre,
+.strong--textCoverProdutos,
+.strong--textCoverClientes {
   color: #fcc200;
   animation: blink 1s step-start 0s infinite;
   -webkit-animation: blink 1s step-start 0s infinite;
@@ -184,7 +201,9 @@
 }
 
 @media screen and (max-width: 1025px) {
-  .container--textCoverSobre {
+  .container--textCoverSobre,
+  .container--textCoverProdutos,
+  .container--textCoverClientes {
     padding-left: 15px;
   }
 }

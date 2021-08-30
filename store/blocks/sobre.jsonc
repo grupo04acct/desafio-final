@@ -28,10 +28,7 @@
     }
   },
   "flex-layout.row#missao": {
-    "children": ["flex-layout.col#missaoText", "flex-layout.col#missaoImg"],
-    "props": {
-      "blockClass": "missao"
-    }
+    "children": ["flex-layout.col#missaoText", "flex-layout.col#missaoImg"]
   },
   "flex-layout.col#missaoText": {
     "children": ["rich-text#missao"],

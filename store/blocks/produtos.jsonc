@@ -1,6 +1,18 @@
 {
   "store.custom#produtos": {
-    "blocks": ["search-result-layout.customQuery#produtos"]
+    "blocks": [
+      "rich-text#coverProdutos",
+      "search-result-layout.customQuery#produtos"
+    ]
+  },
+  "rich-text#coverProdutos": {
+    "props": {
+      "text": "PRODUTOS**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "font": "t-heading-1",
+      "blockClass": "textCoverProdutos"
+    }
   },
   "search-result-layout.customQuery#produtos": {
     "props": {
@@ -30,8 +42,8 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "desktop": 3,
-            "tablet": 2,
+            "desktop": 1,
+            "tablet": 1,
             "phone": 1
           }
         },
@@ -49,7 +61,7 @@
     "children": [
       "product-summary-name",
       "product-images#products",
-      // "product-selling-price",
+      // "product-price",
       "add-to-cart-button#products"
     ]
   },

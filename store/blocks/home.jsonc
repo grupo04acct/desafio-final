@@ -1,6 +1,12 @@
 {
   "store.home": {
-    "blocks": ["slider-layout#home", "__fold__", "rich-text#1", "rich-text#2"]
+    "blocks": [
+      "slider-layout#home",
+      "__fold__",
+      "rich-text#1",
+      "rich-text#2",
+      "flex-layout.row#virtudes"
+    ]
   },
   "slider-layout#home": {
     "props": {
