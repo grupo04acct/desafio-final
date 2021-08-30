@@ -1,3 +1,7 @@
+.logoLink--logoMobile {
+  padding-left: 9px;
+}
+
 .imageElement--virtudes {
   width: 100px;
   transition: 0.4s;

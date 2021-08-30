@@ -1,3 +1,9 @@
+.overlay {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+}
+
 .menuIcon {
   padding: 20px 15px;
   color: #fcc200;
@@ -5,6 +11,22 @@
   width: 25px;
 }
 
-.childrenContainer {
-  padding-left: 15px;
+.closeIconContainer {
+  display: none;
 }
+
+.closeIcon {
+  color: #fcc200;
+  padding: 15px;
+  width: 45px;
+  height: 45px;
+}
+
+.closeIconButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* .closeIconButton {
+  padding-left: 104px;
+} */

@@ -9,6 +9,12 @@
   box-shadow: 0px 0px 20px rgb(0 0 0 / 10%);
 }
 
+.flexRowContent--drawerRow1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #040404;
+}
+
 .flexRow--footer {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   background-color: #f8f8f8;
