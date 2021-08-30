@@ -1,0 +1,12 @@
+type LeadItem {
+  name: String
+  email: String
+  phone: String
+  type: String
+  dataProspecto: String
+  dataCliente: String
+}
+
+type Query {
+  leads: [LeadItem]
+}
