@@ -30,6 +30,7 @@
       "menu-item#produtos",
       "menu-item#clientes",
       "flex-layout.col#spacer",
+      "minicart.v2",
       "locale-switcher"
     ]
   },
@@ -101,7 +102,7 @@
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": ["logo", "flex-layout.col#spacer", "drawer"],
+    "children": ["logo", "flex-layout.col#spacer", "minicart.v2", "drawer"],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
