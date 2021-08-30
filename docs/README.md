@@ -21,6 +21,7 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
     + [Contato](#contato)
       - [Contato - Desktop](#contato---desktop)
       - [Contato - Mobile](#contato---mobile)
+  * [Membros do grupo](#membros-do-grupo)
 
 ## Demos
 
