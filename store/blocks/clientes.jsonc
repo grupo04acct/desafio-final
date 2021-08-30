@@ -13,10 +13,16 @@
   },
 
   "flex-layout.row#form": {
-    "children": ["flex-layout.col#form"]
+    "children": ["flex-layout.col#form"],
+    "props": {
+      "blockClass": "contact"
+    }
   },
   "flex-layout.col#form": {
-    "children": ["form"]
+    "children": ["form"],
+    "props": {
+      "blockClass": "contact"
+    }
   },
   "form": {
     "props": {
@@ -39,7 +45,8 @@
     "props": {
       "text": "Solicite nosso contato:",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass": "contact"
     }
   },
   "rich-text#successSubmit": {
@@ -69,7 +76,8 @@
   },
   "form-submit": {
     "props": {
-      "label": "Enviar"
+      "label": "Enviar",
+      "blockClass": "contact"
     }
   }
 }

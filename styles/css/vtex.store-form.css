@@ -1,0 +1,11 @@
+.vtex-input :global(.vtex-input__label) {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.formSubmitButton--contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}

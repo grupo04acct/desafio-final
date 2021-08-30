@@ -117,6 +117,7 @@
   },
   "flex-layout.col#drawer": {
     "children": [
+      "logo",
       "menu-item#sobre",
       "menu-item#produtos",
       "menu-item#clientes",
