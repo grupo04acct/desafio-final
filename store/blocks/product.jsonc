@@ -40,10 +40,10 @@
     },
     "children": [
       "vtex.store-components:product-name",
+      "product-description",
       "product-price#product-details",
       "sku-selector",
       "flex-layout.row#buy-button",
-      "shipping-simulator",
       "share#default"
     ]
   },

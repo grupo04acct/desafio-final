@@ -1,6 +1,13 @@
 {
   "store.home": {
     "blocks": [
+<<<<<<< HEAD
+      "slider-layout#home",
+      "__fold__",
+      "rich-text#1",
+      "rich-text#2",
+      "flex-layout.row#virtudes"
+=======
       "slider-layout#home", 
       "__fold__", 
       "rich-text#1", 
@@ -10,6 +17,7 @@
       "flex-layout.row#flip",
       "flex-layout.row#depoimento",
       "flex-layout.row#historia-cliente"
+>>>>>>> 32a545e789a7a39c772d12a170878b3f54ecf9cf
     ]
   },
   "slider-layout#home": {
