@@ -113,12 +113,36 @@
   "drawer": {
     "children": ["flex-layout.col#drawer"],
     "props": {
-      "isFullWidth": "true"
+      "isFullWidth": "true",
+      "maxWidth": "1170"
     }
   },
   "flex-layout.col#drawer": {
+    "children": ["flex-layout.row#drawer1", "flex-layout.row#drawer2"]
+  },
+  "flex-layout.row#drawer1": {
+    "children": ["logo#mobile", "drawer-close-button"],
+    "props": {
+      "blockClass": "drawerRow1"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo-white.svg",
+      "width": "145",
+      "blockClass": "logoMobile"
+    }
+  },
+  "flex-layout.row#drawer2": {
+    "children": ["flex-layout.col#drawer2"],
+    "props": {
+      "blockClass": "drawerRow2"
+    }
+  },
+  "flex-layout.col#drawer2": {
     "children": [
-      "logo",
       "menu-item#sobre",
       "menu-item#produtos",
       "menu-item#clientes",
