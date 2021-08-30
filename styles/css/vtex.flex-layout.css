@@ -101,6 +101,10 @@
   color: #040404;
 }
 
+.flexRowContent--product-main {
+  padding: 0 104px;
+}
+
 @media screen and (max-width: 1170px) {
   .flexRow--virtudes {
     width: 940px;
@@ -110,6 +114,9 @@
 @media screen and (max-width: 970px) {
   .flexRow--virtudes {
     width: 738px;
+  }
+  .flexRowContent--product-main {
+    padding: 0 15px;
   }
 }
 
