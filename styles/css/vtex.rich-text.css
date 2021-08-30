@@ -352,13 +352,13 @@
   background-image: url('assets/cover-produtos.jpg');
 }
 
-.container--textCoverClientes {
-  background-image: url('assets/cover-clientes.jpg');
+.container--textCoverContato {
+  background-image: url('assets/cover-contato.jpg');
 }
 
 .container--textCoverSobre,
 .container--textCoverProdutos,
-.container--textCoverClientes {
+.container--textCoverContato {
   background-position: center center;
   background-size: cover;
   padding: 55.5px 0 55.5px 104px;
@@ -368,7 +368,7 @@
 
 .paragraph--textCoverSobre,
 .paragraph--textCoverProdutos,
-.paragraph--textCoverClientes {
+.paragraph--textCoverContato {
   color: #fff;
   font-family: 'Open Sans Condensed';
   font-weight: 700;
@@ -377,7 +377,7 @@
 
 .strong--textCoverSobre,
 .strong--textCoverProdutos,
-.strong--textCoverClientes {
+.strong--textCoverContato {
   color: #fcc200;
   animation: blink 1s step-start 0s infinite;
   -webkit-animation: blink 1s step-start 0s infinite;
@@ -443,7 +443,7 @@
 @media screen and (max-width: 1025px) {
   .container--textCoverSobre,
   .container--textCoverProdutos,
-  .container--textCoverClientes {
+  .container--textCoverContato {
     padding-left: 15px;
   }
 }

@@ -28,7 +28,7 @@
       "flex-layout.col#spacer",
       "menu-item#sobre",
       "menu-item#produtos",
-      "menu-item#clientes",
+      "menu-item#contato",
       "flex-layout.col#spacer",
       "minicart.v2",
       "locale-switcher"
@@ -62,17 +62,17 @@
       }
     }
   },
-  "menu-item#clientes": {
+  "menu-item#contato": {
     "props": {
-      "id": "menu-item-clientes",
+      "id": "menu-item-contato",
       "type": "custom",
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clientes",
+        "href": "/contato",
         "noFollow": false,
-        "tagTitle": "Clientes",
-        "text": "Clientes"
+        "tagTitle": "Contato",
+        "text": "Contato"
       }
     }
   },
@@ -145,7 +145,7 @@
     "children": [
       "menu-item#sobre",
       "menu-item#produtos",
-      "menu-item#clientes",
+      "menu-item#contato",
       "locale-switcher"
     ]
   }
