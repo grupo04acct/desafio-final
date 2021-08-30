@@ -433,6 +433,13 @@
   font-size: 0.875rem;
 }
 
+.container--contact {
+  padding-top: 60px;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
 @media screen and (max-width: 1025px) {
   .container--textCoverSobre,
   .container--textCoverProdutos,

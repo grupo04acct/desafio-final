@@ -42,8 +42,8 @@
           "name": "grid",
           "component": "GridSummary",
           "itemsPerRow": {
-            "desktop": 1,
-            "tablet": 1,
+            "desktop": 2,
+            "tablet": 2,
             "phone": 1
           }
         },
@@ -61,7 +61,6 @@
     "children": [
       "product-summary-name",
       "product-images#products",
-      // "product-price",
       "add-to-cart-button#products"
     ]
   },

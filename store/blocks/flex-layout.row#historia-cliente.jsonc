@@ -1,8 +1,6 @@
 {
   "flex-layout.row#historia-cliente": {
-    "children": [
-      "flex-layout.col#historia-cliente"
-    ],
+    "children": ["flex-layout.col#historia-cliente"],
     "props": {
       "blockClass": "hist-cli"
     }
@@ -15,9 +13,7 @@
     ]
   },
   "flex-layout.row#hist-cli-titulo": {
-    "children": [
-      "rich-text#hist-cli-titulo"
-    ]
+    "children": ["rich-text#hist-cli-titulo"]
   },
   "flex-layout.row#hist-cli-cards": {
     "children": [
@@ -77,7 +73,7 @@
       "rich-text#hist-cli-card2-desc"
     ],
     "props": {
-      "horizontalAlign": "center",      
+      "horizontalAlign": "center",
       "blockClass": "hist-cli"
     }
   },
@@ -112,7 +108,7 @@
       "rich-text#hist-cli-card3-desc"
     ],
     "props": {
-      "horizontalAlign": "center",      
+      "horizontalAlign": "center",
       "blockClass": "hist-cli"
     }
   },
@@ -146,7 +142,7 @@
       "textPosition": "center",
       "callToActionMode": "button",
       "callToActionText": "SAIBA MAIS",
-      "callToActionUrl": "/",
+      "callToActionUrl": "/sobre",
       "textAlignment": "center",
       "font": "t-heading-6"
     }

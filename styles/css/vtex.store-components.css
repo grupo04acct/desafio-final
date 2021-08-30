@@ -29,20 +29,20 @@
 }
 
 .infoCardContainer {
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
-  background-color: #FFFFFF;
-  border-color: #5974C7;
-  font-family: "Open Sans";
+  background-color: #ffffff;
+  border-color: #5974c7;
+  font-family: 'Open Sans';
   text-transform: none;
-  color: #5974C7;
+  color: #5974c7;
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
-  background-color: #5974C7;
-  color: #FFFFFF;
+  background-color: #5974c7;
+  color: #ffffff;
 }
 
 .infoCardContainer--flip {

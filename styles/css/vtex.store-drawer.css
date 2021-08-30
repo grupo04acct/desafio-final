@@ -4,3 +4,7 @@
   height: 25px;
   width: 25px;
 }
+
+.childrenContainer {
+  padding-left: 15px;
+}
