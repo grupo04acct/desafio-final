@@ -20,7 +20,10 @@
       "flex-layout.col#hist-cli-card1",
       "flex-layout.col#hist-cli-card2",
       "flex-layout.col#hist-cli-card3"
-    ]
+    ],
+    "props": {
+      "blockClass": "hist-cli"
+    }
   },
   "rich-text#hist-cli-titulo": {
     "props": {

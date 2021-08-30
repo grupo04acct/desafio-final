@@ -109,6 +109,10 @@
   .flexRow--virtudes {
     width: 940px;
   }
+
+  .flexRowContent--hist-cli {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 970px) {
@@ -120,7 +124,23 @@
   }
 }
 
+@media screen and (min-width: 640px) {
+  .flexRowContent--hist-cli {
+    display: flex;
+    align-items: start;
+  }
+}
+
 @media screen and (max-width: 639px) {
+  .flexRowContent--depoimento {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flexCol--depoimento {
+    padding: 0 32px;
+  }
+
   .flexColChild--missaoImg {
     padding: 15px;
   }
