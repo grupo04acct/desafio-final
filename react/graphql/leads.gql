@@ -1,0 +1,10 @@
+query leads {
+  leads {
+    name
+    email
+    phone
+    type
+    dataCliente
+    dataProspecto
+  }
+}

@@ -1,6 +1,11 @@
 .imageElement--virtudes {
   width: 100px;
-  margin-top: 50px;
+  transition: 0.4s;
+}
+
+.imageElement--virtudes:hover {
+  width: 90px;
+  filter: opacity(0.8);
 }
 
 .container {
@@ -9,6 +14,72 @@
 
 .logoContainer {
   padding: 0;
+}
+
+.imageElement--trustedImg {
+  width: 130px;
+  transition: 0.6s;
+  filter: saturate(0);
+  margin: auto;
+}
+
+.imageElement--trustedImg:hover {
+  width: 120px;
+  filter: opacity(0.8);
+}
+
+.infoCardContainer {
+  border-color: #FFFFFF;
+}
+
+.infoCardCallActionContainer :global(.vtex-button) {
+  background-color: #FFFFFF;
+  border-color: #5974C7;
+  font-family: "Open Sans";
+  text-transform: none;
+  color: #5974C7;
+}
+
+.infoCardCallActionContainer :global(.vtex-button):hover {
+  background-color: #5974C7;
+  color: #FFFFFF;
+}
+
+.infoCardContainer--flip {
+  visibility: visible;
+}
+
+.infoCardContainer--flip:hover {
+  visibility: hidden;
+}
+
+.infoCardContainer--hide {
+  visibility: hidden;
+}
+
+.infoCardContainer--hide:hover {
+  visibility: visible;
+}
+
+.imageElement--time {
+  border-radius: 100%;
+  border: #dedede 3px solid;
+  margin: 0 auto;
+  width: 150px;
+  align-items: center;
+}
+
+.imageElement--depoimento {
+  border-radius: 50%;
+  margin-right: 15px;
+  max-width: 64px;
+}
+
+.imageElement--hist-cli {
+  border-radius: 100px;
+  margin-bottom: 20px;
+  max-width: 240px !important;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 1025px) {

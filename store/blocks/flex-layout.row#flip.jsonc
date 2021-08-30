@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#flip": {
+    "children": [
+      "flex-layout.col#flip"
+    ]
+  },
+  "flex-layout.col#flip": {
+    "children": [
+      "flex-layout.row#flip1",
+      "flex-layout.row#flip2"
+    ]
+  },
+  "flex-layout.row#flip1": {
+    "children": [
+      "flex-layout.col#flip-quality-assurance",
+      "flex-layout.col#flip-growth-data"
+    ]
+  },
+  "flex-layout.row#flip2": {
+    "children": [
+      "flex-layout.col#flip-experience-design",
+      "flex-layout.col#flip-tecnologia"
+    ]
+  },
+  "flex-layout.col#flip-quality-assurance": {
+    "children": [
+      "rich-text#flip-quality-assurance",
+      "rich-text#flip-quality-assurance-hover"
+    ]
+  },
+  "flex-layout.col#flip-growth-data": {
+    "children": [
+      "rich-text#flip-growth-data",
+      "rich-text#flip-growth-data-hover"
+    ]
+  },
+  "flex-layout.col#flip-experience-design": {
+    "children": [
+      "rich-text#flip-experience-design",
+      "rich-text#flip-experience-design-hover"
+    ]
+  },
+  "flex-layout.col#flip-tecnologia": {
+    "children": [
+      "rich-text#flip-tecnologia",
+      "rich-text#flip-tecnologia-hover"
+    ]
+  },
+  "rich-text#flip-quality-assurance": {
+    "props": {
+      "text": "Quality Assurance**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip1"
+    }
+  },
+  "rich-text#flip-growth-data": {
+    "props": {
+      "text": "Growth e Data**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip2"
+    }
+  },
+  "rich-text#flip-experience-design": {
+    "props": {
+      "text": "Experience Design**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip3"
+    }
+  },
+  "rich-text#flip-tecnologia": {
+    "props": {
+      "text": "Tecnologia**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip4"
+    }
+  },
+  "rich-text#flip-quality-assurance-hover": {
+    "props": {
+      "text": "**Confiança e credibilidade**\nUm sistema de garantia de qualidade tem como objetivo aumentar a confiança e a credibilidade de produtos, processos e serviços. Ao mesmo tempo que melhora os processos de trabalho e a eficiência, além de permitir que a empresa tenha máximo controle e prevenção contra defeitos e mau funcionamento.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip1-hover"
+    }
+  },
+  "rich-text#flip-growth-data-hover": {
+    "props": {
+      "text": "**Insights para o amanhã**\nOs dados são a nova moeda, portanto, a aplicação de um processo de análise de dados é fundamental para as empresas na era digital. O processo de coleta, organização, descrição, análise e interpretação de dados pode fornecer aos tomadores de decisão as informações necessárias para prever o futuro.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip2-hover"
+    }
+  },
+  "rich-text#flip-experience-design-hover": {
+    "props": {
+      "text": "**Conectando com pessoas**\nExperience design é uma questão de empatia. Ao criar experiências, estamos tentando ver o mundo através dos olhos do cliente e imaginar o que ele estará procurando ao navegar em nossos sistemas. A experiência do usuário é uma ferramenta estratégica de negócios se você aplicar aos seus projetos e processos de forma inteligente.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip3-hover"
+    }
+  },
+  "rich-text#flip-tecnologia-hover": {
+    "props": {
+      "text": "**Criando o futuro**\nNa ACCT vivemos e respiramos o desenvolvimento de software. Mais de 60% de nossos funcionários são engenheiros de software. Como uma empresa enraizada nas melhores práticas de desenvolvimento, nossa responsabilidade como engenheiros e criadores se expressa através do desenvolvimento de soluções digitais.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "flip4-hover"
+    }
+  }
+}

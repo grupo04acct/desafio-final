@@ -6,7 +6,12 @@
     "styles": "2.x",
     "store": "0.x",
     "docs": "0.x",
-    "assets": "0.x"
+    "assets": "0.x",
+    "admin": "0.x",
+    "node": "6.x",
+    "graphql": "1.x",
+    "react": "3.x",
+    "messages": "1.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -48,5 +53,21 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.store-form": "0.x"
   },
+  "policies": [
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "apitest--hiringcoders202104.myvtex.com/storage/",
+        "path": "*"
+      }
+    },
+    {
+      "name": "outbound-access",
+      "attrs": {
+        "host": "250uz6a34l.execute-api.us-west-1.amazonaws.com",
+        "path": "*"
+      }
+    }
+  ],
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

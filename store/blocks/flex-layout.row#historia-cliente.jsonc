@@ -1,0 +1,154 @@
+{
+  "flex-layout.row#historia-cliente": {
+    "children": [
+      "flex-layout.col#historia-cliente"
+    ],
+    "props": {
+      "blockClass": "hist-cli"
+    }
+  },
+  "flex-layout.col#historia-cliente": {
+    "children": [
+      "flex-layout.row#hist-cli-titulo",
+      "flex-layout.row#hist-cli-cards",
+      "info-card#hist-cli-mais"
+    ]
+  },
+  "flex-layout.row#hist-cli-titulo": {
+    "children": [
+      "rich-text#hist-cli-titulo"
+    ]
+  },
+  "flex-layout.row#hist-cli-cards": {
+    "children": [
+      "flex-layout.col#hist-cli-card1",
+      "flex-layout.col#hist-cli-card2",
+      "flex-layout.col#hist-cli-card3"
+    ]
+  },
+  "rich-text#hist-cli-titulo": {
+    "props": {
+      "text": "Histórias e Clientes**_**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-titulo"
+    }
+  },
+  "flex-layout.col#hist-cli-card1": {
+    "children": [
+      "image#hist-cli-card1-foto",
+      "rich-text#hist-cli-card1-nome",
+      "rich-text#hist-cli-card1-desc"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "hist-cli"
+    }
+  },
+  "image#hist-cli-card1-foto": {
+    "props": {
+      "src": "assets/historia-cliente/tokstok.jpg",
+      "blockClass": "hist-cli"
+    }
+  },
+  "rich-text#hist-cli-card1-nome": {
+    "props": {
+      "text": "Tok&Stok",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-nome"
+    }
+  },
+  "rich-text#hist-cli-card1-desc": {
+    "props": {
+      "text": "Presente em vários estados do Brasil e também no Distrito Federal, com lojas distribuídas em várias cidades brasileiras, a Tok&Stok é referência em móveis e decoração.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-desc"
+    }
+  },
+  "flex-layout.col#hist-cli-card2": {
+    "children": [
+      "image#hist-cli-card2-foto",
+      "rich-text#hist-cli-card2-nome",
+      "rich-text#hist-cli-card2-desc"
+    ],
+    "props": {
+      "horizontalAlign": "center",      
+      "blockClass": "hist-cli"
+    }
+  },
+  "image#hist-cli-card2-foto": {
+    "props": {
+      "src": "assets/historia-cliente/emporio.jpg",
+      "blockClass": "hist-cli"
+    }
+  },
+  "rich-text#hist-cli-card2-nome": {
+    "props": {
+      "text": "Empório da Cerveja",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-nome"
+    }
+  },
+  "rich-text#hist-cli-card2-desc": {
+    "props": {
+      "text": "Como parte da ZX Ventures, o braço de inovação global do maior grupo cervejeiro do mundo, a AB InBev.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-desc"
+    }
+  },
+  "flex-layout.col#hist-cli-card3": {
+    "children": [
+      "image#hist-cli-card3-foto",
+      "rich-text#hist-cli-card3-nome",
+      "rich-text#hist-cli-card3-desc"
+    ],
+    "props": {
+      "horizontalAlign": "center",      
+      "blockClass": "hist-cli"
+    }
+  },
+  "image#hist-cli-card3-foto": {
+    "props": {
+      "src": "assets/historia-cliente/forma-turismo.jpg",
+      "blockClass": "hist-cli"
+    }
+  },
+  "rich-text#hist-cli-card3-nome": {
+    "props": {
+      "text": "Forma Turismo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-nome"
+    }
+  },
+  "rich-text#hist-cli-card3-desc": {
+    "props": {
+      "text": "A Forma Turismo é uma agência de turismo especializada em viagens estudantis. Rapidamente se tornou um importante player no setor de turismo no Brasil.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2",
+      "blockClass": "hist-cli-desc"
+    }
+  },
+  "info-card#hist-cli-mais": {
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "callToActionMode": "button",
+      "callToActionText": "SAIBA MAIS",
+      "callToActionUrl": "/",
+      "textAlignment": "center",
+      "font": "t-heading-6"
+    }
+  }
+}
