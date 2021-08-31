@@ -22,7 +22,13 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
     - [Contato](#contato)
       - [Contato - Desktop](#contato---desktop)
       - [Contato - Mobile](#contato---mobile)
+    - [Leads Admin VTEX](#leads-admin-vtex)
+    - [API](#api)
+      - [Rotas API](#rotas-api)
+      - [Endpoints AWS API Gateway](#endpoints-aws-api-gateway)
+      - [API Lambda Function para lidar com Order Hook e checar se cliente era prospecto](#api-lambda-function-para-lidar-com-order-hook-e-checar-se-cliente-era-prospecto)
   - [Membros do grupo](#membros-do-grupo)
+  - [Github dos membros do grupo](#github-dos-membros-do-grupo)
 
 ## Demos
 
@@ -66,6 +72,24 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
 
 ![Contato - Mobile](demos/desafiofinal-m-contato.gif)
 
+### Leads Admin VTEX
+
+![Leads Admin VTEX](demos/desafiofinal-leads.gif)
+
+### API
+
+#### Rotas API
+
+![Rotas API](demos/desafiofinal-api-rotas.png)
+
+#### Endpoints AWS API Gateway
+
+![API Rotas](demos/desafiofinal-api-endpoints.gif)
+
+#### API Lambda Function para lidar com Order Hook e checar se cliente era prospecto
+
+![API Lambda Function](demos/desafiofinal-api-lambda.gif)
+
 ## Membros do grupo
 
 - Denis Ricardo Littig
@@ -78,3 +102,19 @@ Também criamos uma página de contato para cadastrar os prospectos da empresa, 
 - Rogério Luciano dos Santos
 - Tarcísio José de Amorim Carvalho
 - Tiago Lima
+
+## Github dos membros do grupo
+
+<table>
+  <tr>
+   <td align="center"><a href="https://github.com/denis-littig"><img src="https://avatars.githubusercontent.com/u/7265139?v=4" width="100px;" alt=""/><br /><sub><b>Denis Ricardo Littig</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=denis-littig" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/hlorenalopes"><img src="https://avatars.githubusercontent.com/u/40503024?v=4" width="100px;" alt=""/><br /><sub><b>Heloisa Lorena Lopes</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=hlorenalopes" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/luiz-lombardi"><img src="https://avatars.githubusercontent.com/u/46449765?v=4" width="100px;" alt=""/><br /><sub><b>Luiz Lombardi</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=luiz-lombardi" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/marialuiza29/"><img src="https://avatars.githubusercontent.com/u/9123245?v=4" width="100px;" alt=""/><br /><sub><b>Maria Luíza Santinho</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=marialuiza29" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/Mariana-araujoas"><img src="https://avatars.githubusercontent.com/u/86842409?v=4" width="100px;" alt=""/><br /><sub><b>Mariana Araújo</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=Mariana-araujoas" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/marioluciomaj"><img src="https://avatars.githubusercontent.com/u/68085237?v=4" width="100px;" alt=""/><br /><sub><b>Mário Lúcio</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=marioluciomaj" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/PriscilaSabino"><img src="https://avatars.githubusercontent.com/u/69174073?v=4" width="100px;" alt=""/><br /><sub><b>Priscila Sabino</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=PriscilaSabino" title="Code">💻</a></td>
+   <td align="center"><a href="https://github.com/TarcisioCarvalho"><img src="https://avatars.githubusercontent.com/u/24461526?v=4" width="100px;" alt=""/><br /><sub><b>Tarcísio  Carvalho</b></sub></a><br /><a href="https://github.com/vtex-apps/drawer/commits?author=TarcisioCarvalho" title="Code">💻</a></td>
+   
+  </tr>
+</table>
